@@ -1,4 +1,4 @@
-#include "sort.h"
+include "sort.h"
 
 /**
  * quick_sort - function that sorts an array of integers
@@ -35,8 +35,7 @@ void quick_Sort(int *array, int start, int end, size_t size)
 }
 
 /**
- * partition - fuctions that partitions 
- * 		using lomuto partition scheme
+ * partition - partitions using lomuto partition
  * @array: array to partition
  * @start: starting point of the array
  * @end: end point of the array
