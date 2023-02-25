@@ -2,7 +2,6 @@
 
 /**
  * insertion_sort_list - sorts a doubly linked list of integers
- * 			 using sorting algorithm
  * @list: doubly linked list of integers
  * Return: nothing
  */
@@ -11,7 +10,9 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *current = *list, *temp;
 
-	if (*list == NULL || list  == NULL)
+	if (*list == NULL)
+		return;
+	if (list  == NULL)
 		return;
 
 	while (current)
